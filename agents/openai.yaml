@@ -1,0 +1,15 @@
+interface:
+  display_name: HTML to WP Child Theme
+  short_description: Build editable, email-ready WordPress child themes
+  default_prompt: Use $convert-html-to-wordpress-child-theme to convert this approved
+    HTML design into a tested, user-editable child theme for the site’s current WordPress
+    parent theme.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
