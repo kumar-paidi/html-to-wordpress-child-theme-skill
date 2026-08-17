@@ -82,6 +82,21 @@ Use $convert-html-to-wordpress-child-theme to convert this approved HTML design.
 
 The skill follows the open [Agent Skills specification](https://agentskills.io/specification), so the same folder can be used by compatible coding agents.
 
+## Platform compatibility
+
+| Platform | Support | Installation |
+|---|---|---|
+| OpenAI Codex | Native Agent Skill | Clone into `.agents/skills/` for a project or `~/.agents/skills/` for personal use |
+| ChatGPT | Native through the published skill/plugin experience | Open the skill link above; availability depends on the ChatGPT surface and account |
+| Claude Code | Native Agent Skill | Clone into `.claude/skills/` for a project or `~/.claude/skills/` for personal use |
+| Claude.ai | Custom skill upload | Upload a release ZIP through **Customize → Skills** when custom skills are available on the account |
+| Google Antigravity | Native Agent Skill | Clone into `.agents/skills/` for a workspace or `~/.gemini/config/skills/` globally |
+| Other AI tools | Varies | Use directly only if the host supports the Agent Skills standard, filesystem access and the required execution tools |
+
+This repository does **not** claim universal compatibility. Chat-only assistants and products without native `SKILL.md` discovery may use the instructions as context, but they cannot run the included Python utilities unless their host provides file and shell tools.
+
+See the [cross-platform installation guide](docs/platform-installation.md) for copy-and-paste commands, verification prompts and adapter guidance.
+
 ## Use the utilities directly
 
 No third-party Python packages are required.
